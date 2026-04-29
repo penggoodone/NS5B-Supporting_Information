@@ -1,0 +1,6 @@
+#!/bin/bash
+     
+pwd=/home/lab/liufengxiang/NS5B2a_BMS986139/
+cd $AMBERHOME/bin
+
+mpirun -np 12 cpptraj.MPI  $pwd/com_sol.prmtop $pwd/hbond/trajhbond

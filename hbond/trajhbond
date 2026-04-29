@@ -1,0 +1,5 @@
+trajin /data/run01/scz0btc/lfx/7a/01/image_50.mdcrd
+
+hbond donormask :1-570 acceptormask :571 out /data/run01/scz0btc/lfx/7a/01/hbond/nhb_acc.dat avgout /data/run01/scz0btc/lfx/7a/01/hbond/avghb_acc.dat
+
+hbond donormask :571 acceptormask :1-570 out /data/run01/scz0btc/lfx/7a/01/hbond/nhb_don.dat avgout /data/run01/scz0btc/lfx/7a/01/hbond/avghb_don.dat
